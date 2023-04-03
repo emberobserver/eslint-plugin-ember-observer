@@ -35,10 +35,11 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated rules list -->
 
-| Name                                                         | Description                            |
-| :----------------------------------------------------------- | :------------------------------------- |
-| [no-ember-components](docs/rules/no-ember-components.md)     | indicate the usage of Ember Components |
-| [no-glimmer-components](docs/rules/no-glimmer-components.md) | indicates use of glimmer components    |
+| Name                                                         | Description                              |
+| :----------------------------------------------------------- | :--------------------------------------- |
+| [no-ember-components](docs/rules/no-ember-components.md)     | indicate the usage of Ember Components   |
+| [no-glimmer-components](docs/rules/no-glimmer-components.md) | indicates use of glimmer components      |
+| [no-jquery-integration](docs/rules/no-jquery-integration.md) | disallow any usage of jQuery integration |
 
 <!-- end auto-generated rules list -->
 
