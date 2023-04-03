@@ -37,6 +37,7 @@ Then configure the rules you want to use under the rules section.
 
 | Name                                                     | Description                            |
 | :------------------------------------------------------- | :------------------------------------- |
+| [no-ember-components](docs/rules/no-ember-components.md) | indicate the usage of Ember Components |
 
 <!-- end auto-generated rules list -->
 
