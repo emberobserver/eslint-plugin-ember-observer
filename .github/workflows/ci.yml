@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu, windows ]
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [16.x, 18.x]
       fail-fast: false
 
     steps:
@@ -23,6 +23,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+    - run: npm i -g npm@9
     - run: npm ci
     - run: npm run lint
     - run: npm run test
