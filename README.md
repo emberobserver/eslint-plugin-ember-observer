@@ -35,12 +35,13 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated rules list -->
 
-| Name                                                         | Description                              |
-| :----------------------------------------------------------- | :--------------------------------------- |
-| [no-ember-components](docs/rules/no-ember-components.md)     | indicate the usage of Ember Components   |
-| [no-glimmer-components](docs/rules/no-glimmer-components.md) | indicates use of glimmer components      |
-| [no-jquery-integration](docs/rules/no-jquery-integration.md) | disallow any usage of jQuery integration |
-| [no-tracked](docs/rules/no-tracked.md)                       | indicate the use of @tracked             |
+| Name                                                         | Description                                                               |
+| :----------------------------------------------------------- | :------------------------------------------------------------------------ |
+| [has-maybe-embroider](docs/rules/has-maybe-embroider.md)     | Require maybeEmbroider function imported and called in ember-cli-build.js |
+| [no-ember-components](docs/rules/no-ember-components.md)     | indicate the usage of Ember Components                                    |
+| [no-glimmer-components](docs/rules/no-glimmer-components.md) | indicates use of glimmer components                                       |
+| [no-jquery-integration](docs/rules/no-jquery-integration.md) | disallow any usage of jQuery integration                                  |
+| [no-tracked](docs/rules/no-tracked.md)                       | indicate the use of @tracked                                              |
 
 <!-- end auto-generated rules list -->
 

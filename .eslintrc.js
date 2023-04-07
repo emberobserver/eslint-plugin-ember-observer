@@ -2,6 +2,10 @@
 
 module.exports = {
   root: true,
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    requireConfigFile: false,
+  },
   extends: [
     "eslint:recommended",
     "plugin:eslint-plugin/recommended",
